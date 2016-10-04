@@ -5,7 +5,7 @@ NTscan扫描器，Recton--D贺免杀专用版，DameWare 4.5
 NTscan--
 net use \\ip\ipc$ " " /user:" " 建立IPC空链接
 net use \\ip\ipc$ "密码" /user:"用户名" 建立IPC非空链接
-net use h: \\ip\c$ "密码" /user:"用户名" 直接登陆后映射对方C：到本地为H:
+net use h: \\ip\c$ "密码" /user:"用户名" 直接登陆后映射对方C：到本地为H
 net use h: \\ip\c$ 登陆后映射对方C：到本地为H:
 net use \\ip\ipc$ /del 删除IPC链接
 net use h: /del 删除映射对方到本地的为H:的映射
